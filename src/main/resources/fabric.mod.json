@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dndoriginsexpanded",
+	"version": "${version}",
+	"name": "D&D Origins Expanded",
+	"description": "D&D Origins Expanded is an expansion of starlitWixen's D&D Origins data pack, including new races, classes, and features such as spellcasting.",
+	"authors": [
+		"starlitWixen"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dndoriginsexpanded/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.starlitwixen.dndoriginsexpanded.DNDOriginsExpanded"
+		],
+		"client": [
+			"com.starlitwixen.dndoriginsexpanded.DNDOriginsExpandedClient"
+		],
+		"fabric-datagen": [
+			"com.starlitwixen.dndoriginsexpanded.DNDOriginsExpandedDataGenerator"
+		]
+	},
+	"mixins": [
+		"dndoriginsexpanded.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
