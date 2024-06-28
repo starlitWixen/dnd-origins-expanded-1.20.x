@@ -1,5 +1,7 @@
 package com.starlitwixen.dndoriginsexpanded;
 
+import com.starlitwixen.dndoriginsexpanded.item.ModItemGroups;
+import com.starlitwixen.dndoriginsexpanded.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,9 +13,8 @@ public class DNDOriginsExpanded implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 
 		LOGGER.info("Hello Fabric world!");
 	}

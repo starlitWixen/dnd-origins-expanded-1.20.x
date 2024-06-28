@@ -1,0 +1,9 @@
+{
+  "item.dndoriginsexpanded.spell_scroll_common": "Common Spell Scroll",
+  "item.dndoriginsexpanded.spell_scroll_uncommon": "Uncommon Spell Scroll",
+  "item.dndoriginsexpanded.spell_scroll_rare": "Rare Spell Scroll",
+  "item.dndoriginsexpanded.spell_scroll_epic": "Epic Spell Scroll",
+  "item.dndoriginsexpanded.spell_scroll_legendary": "Legendary Spell Scroll",
+
+  "itemgroup.dndoriginsexpanded": "D&D Origins Expanded"
+}
